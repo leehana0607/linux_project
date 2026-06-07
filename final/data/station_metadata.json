@@ -1,0 +1,2449 @@
+{
+  "source": "서울교통공사_혼잡도_엘리베이터_수유실_통합.csv + existing transfer labels",
+  "allowed_lines": [
+    "1호선",
+    "2호선",
+    "5호선",
+    "7호선"
+  ],
+  "line_data": {
+    "1호선": [
+      {
+        "station": "서울역",
+        "station_no": "150",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 30.93,
+        "congestion_peak": 126.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "시청",
+        "station_no": "151",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 29.19,
+        "congestion_peak": 111.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "종각",
+        "station_no": "152",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 28.13,
+        "congestion_peak": 83.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "종로3가",
+        "station_no": "153",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 28.35,
+        "congestion_peak": 88.5,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "종로5가",
+        "station_no": "154",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 28.47,
+        "congestion_peak": 85.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "동대문",
+        "station_no": "155",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 27.77,
+        "congestion_peak": 87.6,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "신설동",
+        "station_no": "156",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 24.8,
+        "congestion_peak": 77.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "제기동",
+        "station_no": "157",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 23.01,
+        "congestion_peak": 72.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "청량리",
+        "station_no": "158",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 20.36,
+        "congestion_peak": 65.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "동묘앞",
+        "station_no": "159",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 4",
+        "has_nursing_room": "N",
+        "congestion_avg": 26.01,
+        "congestion_peak": 85.5,
+        "nursing_room_location": null
+      }
+    ],
+    "2호선": [
+      {
+        "station": "시청",
+        "station_no": "201",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 39.74,
+        "congestion_peak": 114.7,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "을지로입구",
+        "station_no": "202",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 39.1,
+        "congestion_peak": 101.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "을지로3가",
+        "station_no": "203",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 38.26,
+        "congestion_peak": 85.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "을지로4가",
+        "station_no": "204",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 38.1,
+        "congestion_peak": 89.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "동대문역사문화공원",
+        "station_no": "205",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 40.93,
+        "congestion_peak": 88.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신당",
+        "station_no": "206",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 43.46,
+        "congestion_peak": 89.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "상왕십리",
+        "station_no": "207",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 43.36,
+        "congestion_peak": 92.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "왕십리",
+        "station_no": "208",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 38.65,
+        "congestion_peak": 87.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "한양대",
+        "station_no": "209",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 2",
+        "has_nursing_room": "N",
+        "congestion_avg": 34.11,
+        "congestion_peak": 77.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "뚝섬",
+        "station_no": "210",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 3",
+        "has_nursing_room": "N",
+        "congestion_avg": 33.16,
+        "congestion_peak": 75.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "성수",
+        "station_no": "211",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 3",
+        "has_nursing_room": "Y",
+        "congestion_avg": 11.57,
+        "congestion_peak": 74.8,
+        "nursing_room_location": "1번출구방면 게이트 안쪽"
+      },
+      {
+        "station": "건대입구",
+        "station_no": "212",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 31.97,
+        "congestion_peak": 72.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "구의",
+        "station_no": "213",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 3",
+        "has_nursing_room": "N",
+        "congestion_avg": 30.7,
+        "congestion_peak": 69.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "강변",
+        "station_no": "214",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 2",
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.83,
+        "congestion_peak": 67.4,
+        "nursing_room_location": "2번출구방면 게이트 안쪽"
+      },
+      {
+        "station": "잠실나루",
+        "station_no": "215",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 29.41,
+        "congestion_peak": 68.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "잠실",
+        "station_no": "216",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 31.01,
+        "congestion_peak": 93.3,
+        "nursing_room_location": "B1 8호선 연결통로방면 게이트 옆"
+      },
+      {
+        "station": "잠실새내",
+        "station_no": "217",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 31.9,
+        "congestion_peak": 98.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "종합운동장",
+        "station_no": "218",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 31.56,
+        "congestion_peak": 107.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "삼성",
+        "station_no": "219",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 32.71,
+        "congestion_peak": 109.7,
+        "nursing_room_location": "B1 아이센터 옆"
+      },
+      {
+        "station": "선릉",
+        "station_no": "220",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 36.86,
+        "congestion_peak": 99.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "역삼",
+        "station_no": "221",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 40.74,
+        "congestion_peak": 125.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "강남",
+        "station_no": "222",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 43.17,
+        "congestion_peak": 132.7,
+        "nursing_room_location": "B1 고객안전실 앞"
+      },
+      {
+        "station": "교대",
+        "station_no": "223",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 45.13,
+        "congestion_peak": 135.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "서초",
+        "station_no": "224",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 45.62,
+        "congestion_peak": 143.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "방배",
+        "station_no": "225",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 45.53,
+        "congestion_peak": 147.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "사당",
+        "station_no": "226",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 44.86,
+        "congestion_peak": 150.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "낙성대",
+        "station_no": "227",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 43.08,
+        "congestion_peak": 131.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "서울대입구",
+        "station_no": "228",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 40.45,
+        "congestion_peak": 120.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "봉천",
+        "station_no": "229",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 38.27,
+        "congestion_peak": 109.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신림",
+        "station_no": "230",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.09,
+        "congestion_peak": 98.3,
+        "nursing_room_location": "B1 고객안전실 방면 게이트 옆"
+      },
+      {
+        "station": "신대방",
+        "station_no": "231",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 3",
+        "has_nursing_room": "N",
+        "congestion_avg": 34.79,
+        "congestion_peak": 81.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "구로디지털단지",
+        "station_no": "232",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 2",
+        "has_nursing_room": "N",
+        "congestion_avg": 36.44,
+        "congestion_peak": 90.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "대림",
+        "station_no": "233",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 38.39,
+        "congestion_peak": 88.6,
+        "nursing_room_location": "2F 고객안전실 인접"
+      },
+      {
+        "station": "신도림",
+        "station_no": "234",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B1",
+        "has_nursing_room": "N",
+        "congestion_avg": 23.84,
+        "congestion_peak": 128.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "문래",
+        "station_no": "235",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B1",
+        "has_nursing_room": "N",
+        "congestion_avg": 40.61,
+        "congestion_peak": 120.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "영등포구청",
+        "station_no": "236",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 40.46,
+        "congestion_peak": 115.8,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "당산",
+        "station_no": "237",
+        "has_elevator": "Y",
+        "elevator_floor_range": "1 ~ 3",
+        "has_nursing_room": "N",
+        "congestion_avg": 41.33,
+        "congestion_peak": 113.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "합정",
+        "station_no": "238",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B1",
+        "has_nursing_room": "N",
+        "congestion_avg": 39.91,
+        "congestion_peak": 106.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "홍대입구",
+        "station_no": "239",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 38.06,
+        "congestion_peak": 116.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신촌(지하)",
+        "station_no": "240",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 38.73,
+        "congestion_peak": 113.0,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "이대",
+        "station_no": "241",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 38.75,
+        "congestion_peak": 110.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "아현",
+        "station_no": "242",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 39.43,
+        "congestion_peak": 114.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "충정로",
+        "station_no": "243",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ B2",
+        "has_nursing_room": "N",
+        "congestion_avg": 39.85,
+        "congestion_peak": 113.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "용답",
+        "station_no": "244",
+        "has_elevator": "Y",
+        "elevator_floor_range": "2 ~ 3",
+        "has_nursing_room": "N",
+        "congestion_avg": 14.24,
+        "congestion_peak": 79.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신답",
+        "station_no": "245",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 13.06,
+        "congestion_peak": 62.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신설동",
+        "station_no": "246",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 5.69,
+        "congestion_peak": 45.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "도림천",
+        "station_no": "247",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ B1",
+        "has_nursing_room": "N",
+        "congestion_avg": 20.5,
+        "congestion_peak": 113.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "양천구청",
+        "station_no": "248",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 18.52,
+        "congestion_peak": 112.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신정네거리",
+        "station_no": "249",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 14.36,
+        "congestion_peak": 89.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "용두",
+        "station_no": "250",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 11.88,
+        "congestion_peak": 53.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "까치산",
+        "station_no": "260",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 6.14,
+        "congestion_peak": 56.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "성수E",
+        "station_no": "9001",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 16.47,
+        "congestion_peak": 64.0,
+        "nursing_room_location": null
+      }
+    ],
+    "5호선": [
+      {
+        "station": "방화",
+        "station_no": "2511",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ B2",
+        "has_nursing_room": "N",
+        "congestion_avg": 1.19,
+        "congestion_peak": 6.6,
+        "nursing_room_location": null
+      },
+      {
+        "station": "개화산",
+        "station_no": "2512",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 3.41,
+        "congestion_peak": 12.4,
+        "nursing_room_location": null
+      },
+      {
+        "station": "김포공항",
+        "station_no": "2513",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B3",
+        "has_nursing_room": "Y",
+        "congestion_avg": 8.05,
+        "congestion_peak": 27.9,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "송정",
+        "station_no": "2514",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 12.25,
+        "congestion_peak": 38.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "마곡",
+        "station_no": "2515",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 14.07,
+        "congestion_peak": 41.6,
+        "nursing_room_location": null
+      },
+      {
+        "station": "발산",
+        "station_no": "2516",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 17.2,
+        "congestion_peak": 45.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "우장산",
+        "station_no": "2517",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 20.09,
+        "congestion_peak": 57.1,
+        "nursing_room_location": "B1 고객안전실 앞"
+      },
+      {
+        "station": "화곡",
+        "station_no": "2518",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 23.59,
+        "congestion_peak": 70.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "까치산",
+        "station_no": "2519",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 26.06,
+        "congestion_peak": 84.5,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "신정",
+        "station_no": "2520",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 27.28,
+        "congestion_peak": 99.6,
+        "nursing_room_location": null
+      },
+      {
+        "station": "목동",
+        "station_no": "2521",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.63,
+        "congestion_peak": 111.9,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "오목교",
+        "station_no": "2522",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 32.88,
+        "congestion_peak": 120.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "양평",
+        "station_no": "2523",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B4 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 34.95,
+        "congestion_peak": 123.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "영등포구청",
+        "station_no": "2524",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B4 ~ B5",
+        "has_nursing_room": "Y",
+        "congestion_avg": 31.4,
+        "congestion_peak": 112.6,
+        "nursing_room_location": "B4 고객안전실 내부"
+      },
+      {
+        "station": "영등포시장",
+        "station_no": "2525",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 27.76,
+        "congestion_peak": 107.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신길",
+        "station_no": "2526",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.34,
+        "congestion_peak": 123.2,
+        "nursing_room_location": "B3 고객안전실 내부"
+      },
+      {
+        "station": "여의도",
+        "station_no": "2527",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 30.62,
+        "congestion_peak": 106.8,
+        "nursing_room_location": "B1 대합실중앙 아이센터 내부"
+      },
+      {
+        "station": "여의나루",
+        "station_no": "2528",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 30.83,
+        "congestion_peak": 94.9,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "마포",
+        "station_no": "2529",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 31.78,
+        "congestion_peak": 92.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "공덕",
+        "station_no": "2530",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 31.1,
+        "congestion_peak": 91.5,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "애오개",
+        "station_no": "2531",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 30.18,
+        "congestion_peak": 92.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "충정로",
+        "station_no": "2532",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.76,
+        "congestion_peak": 93.3,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "서대문",
+        "station_no": "2533",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 29.4,
+        "congestion_peak": 86.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "광화문",
+        "station_no": "2534",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.23,
+        "congestion_peak": 81.5,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "종로3가",
+        "station_no": "2535",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B4 ~ B5",
+        "has_nursing_room": "N",
+        "congestion_avg": 28.26,
+        "congestion_peak": 90.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "을지로4가",
+        "station_no": "2536",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 26.52,
+        "congestion_peak": 81.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "동대문역사문화공원",
+        "station_no": "2537",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 26.48,
+        "congestion_peak": 82.5,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "청구",
+        "station_no": "2538",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.0,
+        "congestion_peak": 85.4,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "신금호",
+        "station_no": "2539",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 30.34,
+        "congestion_peak": 87.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "행당",
+        "station_no": "2540",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 30.26,
+        "congestion_peak": 83.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "왕십리",
+        "station_no": "2541",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 33.78,
+        "congestion_peak": 105.4,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "마장",
+        "station_no": "2542",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 37.07,
+        "congestion_peak": 107.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "답십리",
+        "station_no": "2543",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.51,
+        "congestion_peak": 107.0,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "장한평",
+        "station_no": "2544",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 35.71,
+        "congestion_peak": 98.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "군자",
+        "station_no": "2545",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ B1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 39.3,
+        "congestion_peak": 117.7,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "아차산",
+        "station_no": "2546",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 42.24,
+        "congestion_peak": 112.1,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "광나루",
+        "station_no": "2547",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 40.83,
+        "congestion_peak": 108.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "천호",
+        "station_no": "2548",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ B3",
+        "has_nursing_room": "Y",
+        "congestion_avg": 37.84,
+        "congestion_peak": 93.6,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "강동",
+        "station_no": "2549",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B4 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.47,
+        "congestion_peak": 83.8,
+        "nursing_room_location": "B3 고객안전실 내부"
+      },
+      {
+        "station": "강동(하남검단산)",
+        "station_no": "2549",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 22.36,
+        "congestion_peak": 68.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "길동",
+        "station_no": "2550",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ BM2",
+        "has_nursing_room": "N",
+        "congestion_avg": 44.04,
+        "congestion_peak": 131.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "굽은다리",
+        "station_no": "2551",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 40.32,
+        "congestion_peak": 110.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "명일",
+        "station_no": "2552",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 36.67,
+        "congestion_peak": 100.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "고덕",
+        "station_no": "2553",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 33.08,
+        "congestion_peak": 93.7,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "상일동",
+        "station_no": "2554",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 27.37,
+        "congestion_peak": 78.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "둔촌동",
+        "station_no": "2555",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 26.81,
+        "congestion_peak": 70.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "올림픽공원(한국체대)",
+        "station_no": "2556",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 23.43,
+        "congestion_peak": 56.6,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "방이",
+        "station_no": "2557",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 20.27,
+        "congestion_peak": 53.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "오금",
+        "station_no": "2558",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 16.99,
+        "congestion_peak": 46.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "개롱",
+        "station_no": "2559",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 12.79,
+        "congestion_peak": 52.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "거여",
+        "station_no": "2560",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 7.77,
+        "congestion_peak": 42.2,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "마천",
+        "station_no": "2561",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B4 ~ B1",
+        "has_nursing_room": "N",
+        "congestion_avg": 2.34,
+        "congestion_peak": 18.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "강일",
+        "station_no": "2562",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 23.8,
+        "congestion_peak": 66.6,
+        "nursing_room_location": "B2(나) 고객안전실 인접"
+      },
+      {
+        "station": "미사",
+        "station_no": "2563",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 17.84,
+        "congestion_peak": 60.5,
+        "nursing_room_location": "B1 고객안전실 앞"
+      },
+      {
+        "station": "하남풍산",
+        "station_no": "2564",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 12.31,
+        "congestion_peak": 29.6,
+        "nursing_room_location": "B1 고객안전실 옆"
+      },
+      {
+        "station": "하남시청",
+        "station_no": "2565",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 8.43,
+        "congestion_peak": 23.6,
+        "nursing_room_location": "B1 고객안전실 인접"
+      },
+      {
+        "station": "하남검단산",
+        "station_no": "2566",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 2.88,
+        "congestion_peak": 14.8,
+        "nursing_room_location": "B1 게이트 옆"
+      },
+      {
+        "station": "강동(마천)",
+        "station_no": "9005",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 27.38,
+        "congestion_peak": 66.8,
+        "nursing_room_location": null
+      }
+    ],
+    "7호선": [
+      {
+        "station": "장암",
+        "station_no": "2711",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 1.08,
+        "congestion_peak": 14.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "도봉산",
+        "station_no": "2712",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 5.15,
+        "congestion_peak": 25.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "수락산",
+        "station_no": "2713",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 11.4,
+        "congestion_peak": 33.3,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "마들",
+        "station_no": "2714",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 14.86,
+        "congestion_peak": 44.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "노원",
+        "station_no": "2715",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 19.32,
+        "congestion_peak": 53.7,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "중계",
+        "station_no": "2716",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 23.59,
+        "congestion_peak": 63.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "하계",
+        "station_no": "2717",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 26.44,
+        "congestion_peak": 75.6,
+        "nursing_room_location": "B2 고객안전실 인접"
+      },
+      {
+        "station": "공릉",
+        "station_no": "2718",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 28.77,
+        "congestion_peak": 81.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "태릉입구",
+        "station_no": "2719",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 29.53,
+        "congestion_peak": 85.6,
+        "nursing_room_location": "B3 고객안전실 내부"
+      },
+      {
+        "station": "먹골",
+        "station_no": "2720",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 30.31,
+        "congestion_peak": 84.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "중화",
+        "station_no": "2721",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 31.64,
+        "congestion_peak": 89.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "상봉",
+        "station_no": "2722",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 35.05,
+        "congestion_peak": 109.6,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "면목",
+        "station_no": "2723",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 38.25,
+        "congestion_peak": 119.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "사가정",
+        "station_no": "2724",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 40.0,
+        "congestion_peak": 132.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "용마산",
+        "station_no": "2725",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 41.42,
+        "congestion_peak": 134.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "중곡",
+        "station_no": "2726",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 42.93,
+        "congestion_peak": 138.5,
+        "nursing_room_location": null
+      },
+      {
+        "station": "군자",
+        "station_no": "2727",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 44.08,
+        "congestion_peak": 138.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "어린이대공원",
+        "station_no": "2728",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 45.02,
+        "congestion_peak": 139.8,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "건대입구",
+        "station_no": "2729",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 41.84,
+        "congestion_peak": 137.6,
+        "nursing_room_location": null
+      },
+      {
+        "station": "자양(뚝섬한강공원)",
+        "station_no": "2730",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "Y",
+        "congestion_avg": 38.78,
+        "congestion_peak": 118.5,
+        "nursing_room_location": "2F ①,④출구방면 게이트 안쪽"
+      },
+      {
+        "station": "청담",
+        "station_no": "2731",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 38.2,
+        "congestion_peak": 121.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "강남구청",
+        "station_no": "2732",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 37.74,
+        "congestion_peak": 110.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "학동",
+        "station_no": "2733",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 38.0,
+        "congestion_peak": 95.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "논현",
+        "station_no": "2734",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.64,
+        "congestion_peak": 93.7,
+        "nursing_room_location": "B2 고객안전실 내부"
+      },
+      {
+        "station": "반포",
+        "station_no": "2735",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 35.27,
+        "congestion_peak": 93.2,
+        "nursing_room_location": null
+      },
+      {
+        "station": "고속터미널",
+        "station_no": "2736",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ B2",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.9,
+        "congestion_peak": 110.3,
+        "nursing_room_location": "B1 고객안전실 내부"
+      },
+      {
+        "station": "내방",
+        "station_no": "2737",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 38.36,
+        "congestion_peak": 130.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "이수",
+        "station_no": "2738",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B3 ~ 1",
+        "has_nursing_room": "Y",
+        "congestion_avg": 36.3,
+        "congestion_peak": 134.1,
+        "nursing_room_location": "B3 고객안전실 내부"
+      },
+      {
+        "station": "남성",
+        "station_no": "2739",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 33.51,
+        "congestion_peak": 126.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "숭실대입구",
+        "station_no": "2740",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 31.39,
+        "congestion_peak": 117.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "상도",
+        "station_no": "2741",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 29.61,
+        "congestion_peak": 109.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "장승배기",
+        "station_no": "2742",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 28.64,
+        "congestion_peak": 102.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신대방삼거리",
+        "station_no": "2743",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B2 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 27.66,
+        "congestion_peak": 96.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "보라매",
+        "station_no": "2744",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 26.52,
+        "congestion_peak": 82.1,
+        "nursing_room_location": null
+      },
+      {
+        "station": "신풍",
+        "station_no": "2745",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 25.99,
+        "congestion_peak": 84.7,
+        "nursing_room_location": null
+      },
+      {
+        "station": "대림",
+        "station_no": "2746",
+        "has_elevator": "Y",
+        "elevator_floor_range": "B1 ~ 1",
+        "has_nursing_room": "N",
+        "congestion_avg": 28.8,
+        "congestion_peak": 82.9,
+        "nursing_room_location": null
+      },
+      {
+        "station": "남구로",
+        "station_no": "2747",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 31.56,
+        "congestion_peak": 95.8,
+        "nursing_room_location": null
+      },
+      {
+        "station": "가산디지털단지",
+        "station_no": "2748",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 33.3,
+        "congestion_peak": 141.3,
+        "nursing_room_location": null
+      },
+      {
+        "station": "철산",
+        "station_no": "2749",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 32.2,
+        "congestion_peak": 141.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "광명사거리",
+        "station_no": "2750",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 28.47,
+        "congestion_peak": 124.0,
+        "nursing_room_location": null
+      },
+      {
+        "station": "천왕",
+        "station_no": "2751",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 25.47,
+        "congestion_peak": 111.6,
+        "nursing_room_location": null
+      },
+      {
+        "station": "온수",
+        "station_no": "2752",
+        "has_elevator": "N",
+        "elevator_floor_range": null,
+        "has_nursing_room": "N",
+        "congestion_avg": 23.8,
+        "congestion_peak": 104.3,
+        "nursing_room_location": null
+      }
+    ]
+  },
+  "all_stations": [
+    "서울역",
+    "시청",
+    "종각",
+    "종로3가",
+    "종로5가",
+    "동대문",
+    "신설동",
+    "제기동",
+    "청량리",
+    "동묘앞",
+    "을지로입구",
+    "을지로3가",
+    "을지로4가",
+    "동대문역사문화공원",
+    "신당",
+    "상왕십리",
+    "왕십리",
+    "한양대",
+    "뚝섬",
+    "성수",
+    "건대입구",
+    "구의",
+    "강변",
+    "잠실나루",
+    "잠실",
+    "잠실새내",
+    "종합운동장",
+    "삼성",
+    "선릉",
+    "역삼",
+    "강남",
+    "교대",
+    "서초",
+    "방배",
+    "사당",
+    "낙성대",
+    "서울대입구",
+    "봉천",
+    "신림",
+    "신대방",
+    "구로디지털단지",
+    "대림",
+    "신도림",
+    "문래",
+    "영등포구청",
+    "당산",
+    "합정",
+    "홍대입구",
+    "신촌(지하)",
+    "이대",
+    "아현",
+    "충정로",
+    "용답",
+    "신답",
+    "도림천",
+    "양천구청",
+    "신정네거리",
+    "용두",
+    "까치산",
+    "성수E",
+    "방화",
+    "개화산",
+    "김포공항",
+    "송정",
+    "마곡",
+    "발산",
+    "우장산",
+    "화곡",
+    "신정",
+    "목동",
+    "오목교",
+    "양평",
+    "영등포시장",
+    "신길",
+    "여의도",
+    "여의나루",
+    "마포",
+    "공덕",
+    "애오개",
+    "서대문",
+    "광화문",
+    "청구",
+    "신금호",
+    "행당",
+    "마장",
+    "답십리",
+    "장한평",
+    "군자",
+    "아차산",
+    "광나루",
+    "천호",
+    "강동",
+    "강동(하남검단산)",
+    "길동",
+    "굽은다리",
+    "명일",
+    "고덕",
+    "상일동",
+    "둔촌동",
+    "올림픽공원(한국체대)",
+    "방이",
+    "오금",
+    "개롱",
+    "거여",
+    "마천",
+    "강일",
+    "미사",
+    "하남풍산",
+    "하남시청",
+    "하남검단산",
+    "강동(마천)",
+    "장암",
+    "도봉산",
+    "수락산",
+    "마들",
+    "노원",
+    "중계",
+    "하계",
+    "공릉",
+    "태릉입구",
+    "먹골",
+    "중화",
+    "상봉",
+    "면목",
+    "사가정",
+    "용마산",
+    "중곡",
+    "어린이대공원",
+    "자양(뚝섬한강공원)",
+    "청담",
+    "강남구청",
+    "학동",
+    "논현",
+    "반포",
+    "고속터미널",
+    "내방",
+    "이수",
+    "남성",
+    "숭실대입구",
+    "상도",
+    "장승배기",
+    "신대방삼거리",
+    "보라매",
+    "신풍",
+    "남구로",
+    "가산디지털단지",
+    "철산",
+    "광명사거리",
+    "천왕",
+    "온수"
+  ],
+  "station_lines": {
+    "서울역": [
+      "1호선"
+    ],
+    "시청": [
+      "1호선",
+      "2호선"
+    ],
+    "종각": [
+      "1호선"
+    ],
+    "종로3가": [
+      "1호선",
+      "5호선"
+    ],
+    "종로5가": [
+      "1호선"
+    ],
+    "동대문": [
+      "1호선"
+    ],
+    "신설동": [
+      "1호선",
+      "2호선"
+    ],
+    "제기동": [
+      "1호선"
+    ],
+    "청량리": [
+      "1호선"
+    ],
+    "동묘앞": [
+      "1호선"
+    ],
+    "을지로입구": [
+      "2호선"
+    ],
+    "을지로3가": [
+      "2호선"
+    ],
+    "을지로4가": [
+      "2호선",
+      "5호선"
+    ],
+    "동대문역사문화공원": [
+      "2호선",
+      "5호선"
+    ],
+    "신당": [
+      "2호선"
+    ],
+    "상왕십리": [
+      "2호선"
+    ],
+    "왕십리": [
+      "2호선",
+      "5호선"
+    ],
+    "한양대": [
+      "2호선"
+    ],
+    "뚝섬": [
+      "2호선"
+    ],
+    "성수": [
+      "2호선"
+    ],
+    "건대입구": [
+      "2호선",
+      "7호선"
+    ],
+    "구의": [
+      "2호선"
+    ],
+    "강변": [
+      "2호선"
+    ],
+    "잠실나루": [
+      "2호선"
+    ],
+    "잠실": [
+      "2호선"
+    ],
+    "잠실새내": [
+      "2호선"
+    ],
+    "종합운동장": [
+      "2호선"
+    ],
+    "삼성": [
+      "2호선"
+    ],
+    "선릉": [
+      "2호선"
+    ],
+    "역삼": [
+      "2호선"
+    ],
+    "강남": [
+      "2호선"
+    ],
+    "교대": [
+      "2호선"
+    ],
+    "서초": [
+      "2호선"
+    ],
+    "방배": [
+      "2호선"
+    ],
+    "사당": [
+      "2호선"
+    ],
+    "낙성대": [
+      "2호선"
+    ],
+    "서울대입구": [
+      "2호선"
+    ],
+    "봉천": [
+      "2호선"
+    ],
+    "신림": [
+      "2호선"
+    ],
+    "신대방": [
+      "2호선"
+    ],
+    "구로디지털단지": [
+      "2호선"
+    ],
+    "대림": [
+      "2호선",
+      "7호선"
+    ],
+    "신도림": [
+      "2호선"
+    ],
+    "문래": [
+      "2호선"
+    ],
+    "영등포구청": [
+      "2호선",
+      "5호선"
+    ],
+    "당산": [
+      "2호선"
+    ],
+    "합정": [
+      "2호선"
+    ],
+    "홍대입구": [
+      "2호선"
+    ],
+    "신촌(지하)": [
+      "2호선"
+    ],
+    "이대": [
+      "2호선"
+    ],
+    "아현": [
+      "2호선"
+    ],
+    "충정로": [
+      "2호선",
+      "5호선"
+    ],
+    "용답": [
+      "2호선"
+    ],
+    "신답": [
+      "2호선"
+    ],
+    "도림천": [
+      "2호선"
+    ],
+    "양천구청": [
+      "2호선"
+    ],
+    "신정네거리": [
+      "2호선"
+    ],
+    "용두": [
+      "2호선"
+    ],
+    "까치산": [
+      "2호선",
+      "5호선"
+    ],
+    "성수E": [
+      "2호선"
+    ],
+    "방화": [
+      "5호선"
+    ],
+    "개화산": [
+      "5호선"
+    ],
+    "김포공항": [
+      "5호선"
+    ],
+    "송정": [
+      "5호선"
+    ],
+    "마곡": [
+      "5호선"
+    ],
+    "발산": [
+      "5호선"
+    ],
+    "우장산": [
+      "5호선"
+    ],
+    "화곡": [
+      "5호선"
+    ],
+    "신정": [
+      "5호선"
+    ],
+    "목동": [
+      "5호선"
+    ],
+    "오목교": [
+      "5호선"
+    ],
+    "양평": [
+      "5호선"
+    ],
+    "영등포시장": [
+      "5호선"
+    ],
+    "신길": [
+      "5호선"
+    ],
+    "여의도": [
+      "5호선"
+    ],
+    "여의나루": [
+      "5호선"
+    ],
+    "마포": [
+      "5호선"
+    ],
+    "공덕": [
+      "5호선"
+    ],
+    "애오개": [
+      "5호선"
+    ],
+    "서대문": [
+      "5호선"
+    ],
+    "광화문": [
+      "5호선"
+    ],
+    "청구": [
+      "5호선"
+    ],
+    "신금호": [
+      "5호선"
+    ],
+    "행당": [
+      "5호선"
+    ],
+    "마장": [
+      "5호선"
+    ],
+    "답십리": [
+      "5호선"
+    ],
+    "장한평": [
+      "5호선"
+    ],
+    "군자": [
+      "5호선",
+      "7호선"
+    ],
+    "아차산": [
+      "5호선"
+    ],
+    "광나루": [
+      "5호선"
+    ],
+    "천호": [
+      "5호선"
+    ],
+    "강동": [
+      "5호선"
+    ],
+    "강동(하남검단산)": [
+      "5호선"
+    ],
+    "길동": [
+      "5호선"
+    ],
+    "굽은다리": [
+      "5호선"
+    ],
+    "명일": [
+      "5호선"
+    ],
+    "고덕": [
+      "5호선"
+    ],
+    "상일동": [
+      "5호선"
+    ],
+    "둔촌동": [
+      "5호선"
+    ],
+    "올림픽공원(한국체대)": [
+      "5호선"
+    ],
+    "방이": [
+      "5호선"
+    ],
+    "오금": [
+      "5호선"
+    ],
+    "개롱": [
+      "5호선"
+    ],
+    "거여": [
+      "5호선"
+    ],
+    "마천": [
+      "5호선"
+    ],
+    "강일": [
+      "5호선"
+    ],
+    "미사": [
+      "5호선"
+    ],
+    "하남풍산": [
+      "5호선"
+    ],
+    "하남시청": [
+      "5호선"
+    ],
+    "하남검단산": [
+      "5호선"
+    ],
+    "강동(마천)": [
+      "5호선"
+    ],
+    "장암": [
+      "7호선"
+    ],
+    "도봉산": [
+      "7호선"
+    ],
+    "수락산": [
+      "7호선"
+    ],
+    "마들": [
+      "7호선"
+    ],
+    "노원": [
+      "7호선"
+    ],
+    "중계": [
+      "7호선"
+    ],
+    "하계": [
+      "7호선"
+    ],
+    "공릉": [
+      "7호선"
+    ],
+    "태릉입구": [
+      "7호선"
+    ],
+    "먹골": [
+      "7호선"
+    ],
+    "중화": [
+      "7호선"
+    ],
+    "상봉": [
+      "7호선"
+    ],
+    "면목": [
+      "7호선"
+    ],
+    "사가정": [
+      "7호선"
+    ],
+    "용마산": [
+      "7호선"
+    ],
+    "중곡": [
+      "7호선"
+    ],
+    "어린이대공원": [
+      "7호선"
+    ],
+    "자양(뚝섬한강공원)": [
+      "7호선"
+    ],
+    "청담": [
+      "7호선"
+    ],
+    "강남구청": [
+      "7호선"
+    ],
+    "학동": [
+      "7호선"
+    ],
+    "논현": [
+      "7호선"
+    ],
+    "반포": [
+      "7호선"
+    ],
+    "고속터미널": [
+      "7호선"
+    ],
+    "내방": [
+      "7호선"
+    ],
+    "이수": [
+      "7호선"
+    ],
+    "남성": [
+      "7호선"
+    ],
+    "숭실대입구": [
+      "7호선"
+    ],
+    "상도": [
+      "7호선"
+    ],
+    "장승배기": [
+      "7호선"
+    ],
+    "신대방삼거리": [
+      "7호선"
+    ],
+    "보라매": [
+      "7호선"
+    ],
+    "신풍": [
+      "7호선"
+    ],
+    "남구로": [
+      "7호선"
+    ],
+    "가산디지털단지": [
+      "7호선"
+    ],
+    "철산": [
+      "7호선"
+    ],
+    "광명사거리": [
+      "7호선"
+    ],
+    "천왕": [
+      "7호선"
+    ],
+    "온수": [
+      "7호선"
+    ]
+  },
+  "transfer_metadata": {
+    "시청": {
+      "lines": [
+        "1호선",
+        "2호선"
+      ],
+      "score": 45.83,
+      "congestion_avg": 34.46,
+      "congestion_peak": 114.7,
+      "transfer_penalty": 34.17,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B2 ~ 1",
+      "has_nursing_room": "Y",
+      "label": "보통",
+      "elevator_maintenance": null,
+      "nursing_room_location": "B2 고객안전실 인접"
+    },
+    "종로3가": {
+      "lines": [
+        "1호선",
+        "5호선"
+      ],
+      "score": 60.0,
+      "congestion_avg": 28.3,
+      "congestion_peak": 90.0,
+      "transfer_penalty": 50.0,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B2 ~ 1",
+      "has_nursing_room": "Y",
+      "label": "주의",
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 인접"
+    },
+    "건대입구": {
+      "lines": [
+        "2호선",
+        "7호선"
+      ],
+      "score": 197.5,
+      "congestion_avg": 36.9,
+      "congestion_peak": 137.6,
+      "transfer_penalty": 80.0,
+      "has_elevator": "N",
+      "elevator_floor_range": null,
+      "has_nursing_room": "N",
+      "label": "회피",
+      "elevator_maintenance": null,
+      "nursing_room_location": null
+    },
+    "신설동": {
+      "lines": [
+        "1호선",
+        "2호선"
+      ],
+      "score": null,
+      "congestion_avg": 15.24,
+      "congestion_peak": 77.8,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B2 ~ 1",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": null
+    },
+    "을지로4가": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 32.31,
+      "congestion_peak": 89.5,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B1 ~ 1",
+      "has_nursing_room": "N",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": null
+    },
+    "동대문역사문화공원": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 33.71,
+      "congestion_peak": 88.3,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B1 ~ 1",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B2 고객안전실 인접"
+    },
+    "왕십리": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 36.21,
+      "congestion_peak": 105.4,
+      "transfer_penalty": null,
+      "has_elevator": "N",
+      "elevator_floor_range": null,
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 내부"
+    },
+    "대림": {
+      "lines": [
+        "2호선",
+        "7호선"
+      ],
+      "score": null,
+      "congestion_avg": 33.59,
+      "congestion_peak": 88.6,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B1 ~ 1",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "2F 고객안전실 인접"
+    },
+    "영등포구청": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 35.93,
+      "congestion_peak": 115.8,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B1 ~ 1",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 인접"
+    },
+    "충정로": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 34.8,
+      "congestion_peak": 113.3,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B3 ~ B2",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 내부"
+    },
+    "까치산": {
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "score": null,
+      "congestion_avg": 16.1,
+      "congestion_peak": 84.5,
+      "transfer_penalty": null,
+      "has_elevator": "N",
+      "elevator_floor_range": null,
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 인접"
+    },
+    "군자": {
+      "lines": [
+        "5호선",
+        "7호선"
+      ],
+      "score": null,
+      "congestion_avg": 41.69,
+      "congestion_peak": 138.8,
+      "transfer_penalty": null,
+      "has_elevator": "Y",
+      "elevator_floor_range": "B3 ~ B1",
+      "has_nursing_room": "Y",
+      "label": null,
+      "elevator_maintenance": null,
+      "nursing_room_location": "B1 고객안전실 내부"
+    }
+  }
+}
